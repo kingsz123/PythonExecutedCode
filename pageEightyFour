@@ -1,0 +1,50 @@
+#Pg 84 for python . transfered to Github 05/31/2022
+
+alien_color = ['red', 'yellow','blue']
+
+if 'green' in alien_color:
+	print("This green alien is weak.")
+elif 'yellow' in alien_color:
+	print("Destroy this yellow alien and gain 10 points!")
+
+	print("This red alein has power")
+	print("Destroy this alien an gain 100 points!")
+
+
+# if-elif-else chain to put together age ranges of life time 
+humanAge = 67
+
+if humanAge < 2:
+	print("\nThis age range is a a baby")
+elif humanAge < 4:
+	print("\nThis age range is a toddler")
+elif humanAge < 13:
+	print("\nThis age range is for kids.")
+elif humanAge < 20:
+	print("\nThis age range is teenager")
+elif humanAge < 65:
+	print("\nThis age range is an adult")
+else:
+	print("\nlol you must be 100")
+
+#list of favorite fruits 
+
+favoriteFruit = ['pineapples', 'oranges', 'apples', 'kiwi']
+
+if 'oranges' in favoriteFruit:
+	print("\nHad these in Nigeria and they were great.")
+if 'kiwi' in favoriteFruit:
+	print("\nThis is good night time food.")
+if 'apples' in favoriteFruit:
+	print("\nThis with peanut butter is great!")
+
+#Checking is the list is empty
+
+requestedToppings = []
+
+if requestedToppings:
+	for requestedTopping in requestedToppings:
+		print(f"Adding {requestedToppings}.")
+	print(f"\n Finished making your pizza!")
+else:
+	print("Finished making your pizza needs more work!")
